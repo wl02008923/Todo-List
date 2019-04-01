@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  background: rgb(205, 95, 255);
+  background: linear-gradient(139deg, rgba(205, 95, 255, 0.8690826672465861) 0%, rgba(125, 154, 255, 0.9251050762101716) 49%, rgba(96, 247, 243, 0.8718837876947654) 100%);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.content{
+  padding-top: 7vh;
+}
+
+.deleteAllBtn {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#add {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #5566ca;
+  border-radius: 8px;
+  background: #8aa6ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8aa6ff), to(#5566ca));
+  background: -moz-linear-gradient(top, #8aa6ff, #5566ca);
+  background: linear-gradient(to bottom, #8aa6ff, #5566ca);
+  text-shadow: #35407f 1px 1px 1px;
+  font: normal normal bold 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#add:hover,
+#add:focus {
+  border: 1px solid ##6a80fd;
+  background: #a6c7ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a6c7ff), to(#667af2));
+  background: -moz-linear-gradient(top, #a6c7ff, #667af2);
+  background: linear-gradient(to bottom, #a6c7ff, #667af2);
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#add:active {
+  background: #5566ca;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5566ca), to(#5566ca));
+  background: -moz-linear-gradient(top, #5566ca, #5566ca);
+  background: linear-gradient(to bottom, #5566ca, #5566ca);
+}
+
+thead{
+  color: white;
+}
+
+tbody{
+  color: white;
+}
+
+#edit{
+  background-color: rgba(95, 124, 225, 0.9);
+  color: white;
+}
+
+#edit:hover,
+#edit:focus {
+  background-color: rgba(135, 164, 245, 0.9);
+  color: white;
+}
+#edit:active {
+  background-color: rgba(75, 104, 205, 0.9);
+  color: white;
+}
+
+#delete{
+  background-color: rgba(205, 95, 255, 0.8);
+  color: white;
+}
+#delete:hover,
+#delete:focus{
+  background-color: rgba(245, 135, 255, 0.8);
+  color: white;
+}
+#delete:active{
+  background-color: rgba(185, 75, 235, 0.8);
+  color: white;
+}
+
+#selectSubmit{
+  background-color: rgba(95, 124, 225, 0.9);
+  color: white;
+}
+
+#selectSubmit:hover,
+#selectSubmit:focus {
+  background-color: rgba(135, 164, 245, 0.9);
+  color: white;
+}
+#selectSubmit:active {
+  background-color: rgba(75, 104, 205, 0.9);
+  color: white;
+}
+
+#editSubmit{
+  background-color:rgba(139, 129, 195, 0.9);
+  color: white;
+}
+#editSubmit:hover,
+#editSubmit:focus {
+  background-color: rgba(179, 169, 235, 0.9);
+  color: white;
+}
+#editSubmit:active {
+  background-color: rgba(119, 109, 175, 0.9);
+  color: white;
+}
+
+#deleteCompleteTasks{
+  display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #b04bbb;
+    border-radius: 8px;
+    background: #ff7aff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff7aff), to(#b04bbb));
+    background: -moz-linear-gradient(top, #ff7aff, #b04bbb);
+    background: linear-gradient(to bottom, #ff7aff, #b04bbb);
+    font: normal normal bold 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#deleteCompleteTasks:hover,
+#deleteCompleteTasks:focus{
+  border: 1px solid ##dc5eea;
+    background: #ff92ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff92ff), to(#d35ae0));
+    background: -moz-linear-gradient(top, #ff92ff, #d35ae0);
+    background: linear-gradient(to bottom, #ff92ff, #d35ae0);
+    color: #ffffff;
+    text-decoration: none;
+}
+#deleteCompleteTasks:active{
+  background: #b04bbb;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b04bbb), to(#b04bbb));
+    background: -moz-linear-gradient(top, #b04bbb, #b04bbb);
+    background: linear-gradient(to bottom, #b04bbb, #b04bbb);
+}
+
+.deleteAllBtn{
+  display: none;
+}
