@@ -156,3 +156,11 @@ tbody{
 .deleteAllBtn{
   display: none;
 }
+
+table{
+  margin-top: 3vh;
+}
+
+.statusSelect{
+  margin-top: 3vh;
+}

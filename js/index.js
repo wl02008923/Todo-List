@@ -50,7 +50,7 @@ $("tbody").on("click", "#edit", function() {
       $(this).parent().prev().prev().html(date);
       $(this).parent().prev().html(status);
       $(this).parent().prev().attr("class", statusClass);
-      $(this).attr("class", "btn btn-success");
+      $(this).attr("class", "btn");
       $(this).attr("id", "edit");
       $(this).text("Edit");
     } else {
